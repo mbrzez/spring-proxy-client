@@ -1,0 +1,9 @@
+proxy-client:
+  proxy:
+    enabled: true
+    header-key: Proxy-Forward
+  api:
+    joke:
+      proxy-enabled: true
+      proxy-header-value: joke
+      proxy-url: https://official-joke-api.appspot.com/random_joke

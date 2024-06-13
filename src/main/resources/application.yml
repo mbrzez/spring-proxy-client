@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: proxy-client
+
+proxy-client:
+  api:
+    joke:
+      client:
+        url: https://official-joke-api.appspot.com/random_joke
